@@ -109,7 +109,7 @@ export default function ShareDonation() {
   }, [])
 
   return (
-    <div className="container mx-auto p-4">
+    <div className="container mx-auto p-4" suppressHydrationWarning>
       <Card className="max-w-2xl mx-auto">
         <CardHeader>
           <CardTitle>Partager un don</CardTitle>

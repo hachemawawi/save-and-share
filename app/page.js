@@ -6,7 +6,8 @@ import { hydrateRoot } from 'react-dom/client';
 
 export default function Home() {
   return (
-    <div className="space-y-6">
+    
+    <div className="space-y-6" suppressHydrationWarning>
       <h2 className="text-3xl font-bold">Bienvenue sur Save&Share</h2>
       <p className="text-xl">Réduisez le gaspillage alimentaire en partageant vos surplus et en apprenant les bonnes pratiques.</p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -35,5 +36,6 @@ export default function Home() {
       </div>
       
     </div>
+   
   )
 }
